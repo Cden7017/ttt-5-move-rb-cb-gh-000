@@ -9,17 +9,17 @@ end
 
 def input_to_index(n)
   n.to_i
-  n = n-1
-  if (n<=2)
+  n = n - 1
+  if (n <= 2)
     board[n] = "X"
-  elsif (2<n<=5)
+  elsif (2 < n <= 5)
     board[n] = "X"
-  elsif (5<n<=8)
+  elsif (5 < n <= 8)
     board[n] = "X"
   else
     puts "Enter again"
 end
 
-    
-    
+
+
 # code your input_to_index and move method here!
