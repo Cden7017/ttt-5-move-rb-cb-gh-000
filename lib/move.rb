@@ -21,7 +21,7 @@ def input_to_index(n,board)
 end
 end
 
-input_to_index(2)
+input_to_index(2,board)
 display_board(board)
 
 
