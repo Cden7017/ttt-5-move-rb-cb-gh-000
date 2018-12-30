@@ -19,6 +19,7 @@ def input_to_index(n)
   else
     puts "Enter again"
 end
+end
 
 input_to_index(2)
 display_board(board)
