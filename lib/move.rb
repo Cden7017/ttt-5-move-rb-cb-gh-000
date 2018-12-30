@@ -20,6 +20,9 @@ def input_to_index(n)
     puts "Enter again"
 end
 
+input_to_index(2)
+display_board(board)
+
 
 
 # code your input_to_index and move method here!
